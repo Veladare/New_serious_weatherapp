@@ -1,18 +1,18 @@
-# Bene_tuum_viam_vis_gerere (you wish to manage your life well)
-Deployed https://veladare.github.io/Bene_tuum_viam_vis_gerere/
+# New Serieous Weatherapp
+https://veladare.github.io/New_serious_weatherapp/
 
 ## Description
 
-The purpose of this project is to create a scheduler app that save data and dynamically changes according to the time of day. 
+The purpose of this project is to create a weather application that uses an API to track the current conditions of a given city, which includes the temperature, wind speed, humidity, as well as providing the time. 
 
-In completing this project, I learned how to use dayjs to create to format the current time of day, and it improved my undertstand of how 'this' work in javascript. In addition I learn some techniques to compress my code. I discovered toggleclass to cut down on the number of line and how to create a for loop for retreiving storage in lines 21-22. 
+In completing this project, I reinforced my understand of js now by converting epoch to current time. I learn how to use and deploy an API to give up-to-date weather conditions. I improved my understand of how to save items in localstorage and display it in the past searches tab, and I learn how to pull particular API entries to make the 5 day forcast work.
 ## Installation 
 
 N/A
 
 ## Usage
 
-To use, click on one of the timeblocks and write a comment. If a user wishes to save the comment, right click on floppy icon. If they wish to remove a comment, delete the previous information and click the save button again.
+To use, type in the name of a city and press search. The webpage will update and give the current weather conditions as well as the 5 day forecast. If users want to search for another city the can repeat the process stated above. If users wish to retrieve weather conditions for a city they already search for, they can select the city in the previous searches tab. 
 
 To inspect the work from the webpage, open it and right click on it. A window will open, then click inspect and a new tab will open which shows the structure of the webpage for individuals to review. Alternatively, the webpage can be inspect via Visual Studio code or similiar programs for review. 
 ## Credits
@@ -24,10 +24,8 @@ N/A
 Please refer to the LICENSE in the repo.
 
 ## Screenshot
+default to New York "https://github.com/Veladare/New_serious_weatherapp/assets/126302466/50e88360-a8ac-4e08-beb0-f4f1e1712f24">
 
-Frontpage -> (https://github.com/Veladare/Quiz_game_redux/assets/126302466/ed2e2298-8299-4d05-be39-c9253f09104e)
-
-
-Frontpage with saved comments -> (https://github.com/Veladare/Bene_tuum_viam_vis_gerere/assets/126302466/b1a92792-0941-473c-83b3-b6526bbebe18)
+With localstorage items -> https://github.com/Veladare/New_serious_weatherapp/assets/126302466/f4d9a39a-ab62-4533-b21e-63066bf4b8c6"
 
 
