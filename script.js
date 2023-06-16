@@ -64,7 +64,7 @@ function getForecast(event) {
 
       var filteredList = response.list.filter(function(dayData) {
         var thisMoment = new Date((dayData.dt + response.city.timezone) * 1000);
-        return [17].includes(thisMoment.getUTCHours());
+        return [11, 12, 13 ].includes(thisMoment.getUTCHours());
       });
 
       for (var i = 0; i < filteredList.length && i < 5; i++) {
